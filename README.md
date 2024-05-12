@@ -82,7 +82,7 @@ Para desenvolvimento da solução foi utilizado o processo de modelagem chamado 
   
 - **Análise Multivariada:** Observar a relação entre todas as  variáveis.
 
-**4.1.5 Filtragem dos dados:** Etapa onde será filtrado os dados retirando algumas inconsistência que podem atrapalhar o desempenhon de nosso modelo.
+**4.1.5 Filtragem dos dados:** Etapa onde será filtrado os dados retirando algumas inconsistências que podem atrapalhar o desempenho de nosso modelo.
 
 **4.1.6 Seleção de atributos:** Seleção de atributos mais significativos para o treinamento do modelo.
 
