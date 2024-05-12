@@ -127,14 +127,15 @@ Identificamos em nossa análise exploratória, que nossa variável target conté
 
 **RMSE (root mean squared error):** é a medida que calcula "a raiz quadrática média" dos erros entre valores observados (reais) e predições (hipóteses).Para calcular, basta tirar a raiz quadrada da média dos erros quadrados, conforme a fórmula abaixo:
 
+$$
 \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-
-\text{Legenda:}
 \begin{align*}
+\text{Legenda:} \\
 - \, n & : \text{ número total de observações.} \\
 - \, y_i & : \text{ valores reais.} \\
 - \, \hat{y}_i & : \text{ valores previstos pelo modelo.}
 \end{align*}
+$$
 
 
 
