@@ -129,10 +129,7 @@ Identificamos em nossa análise exploratória, que nossa variável target conté
 
 $$
 \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-$$
 
-
-$$
 \begin{align*}
 \text{Legenda:} \\
 - \, n & : \text{ número total de observações.} \\
