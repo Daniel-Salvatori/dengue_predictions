@@ -131,11 +131,14 @@ $$
 \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
 $$
 
-Legenda:
-
-- \( n \): número total de observações.
-- \( y_i \): valores reais.
-- \( \hat{y}_i \): valores previstos pelo modelo.
+\[
+\begin{align*}
+\text{Legenda:} \\
+- \, n & : \text{ número total de observações.} \\
+- \, y_i & : \text{ valores reais.} \\
+- \, \hat{y}_i & : \text{ valores previstos pelo modelo.}
+\end{align*}
+\]
 
 ### 6.2 Modelos
 
