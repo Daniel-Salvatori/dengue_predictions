@@ -28,7 +28,7 @@ Este trabalho foi realizado na oitava edição do Hackday proposto pela [Comunid
 Maiores informações podem ser conferidas através do link da [competição](https://www.kaggle.com/competitions/8-hackday-comunidadeds/overview).
 
 ## 3. Descrição dos dados
-Os dados foram disponibilizados em um banco de dados PostgreSQL divididos em 6 tabelas. Após a uniçao de todas elas obtivemos o seguinte conjunto de dados:
+Os dados foram disponibilizados em um banco de dados PostgreSQL divididos em 6 tabelas. Após a união de todas elas obtivemos o seguinte conjunto de dados:
 
 
 | Variável                        | Descrição                                        |
@@ -66,7 +66,7 @@ Para desenvolvimento da solução foi utilizado o processo de modelagem chamado 
 * Hyperparameter Fine Tuning (Optuna)
 * Técnicas de redução de dimensionalidade (PCA)
 
-### 3.2 Processos
+### 4.2 Processos
 
 **4.1.1 Entendimento do negócio:** Nessa etapa inicial é fundamental identificar os objetivos do negócio e entender como a empresa atua no mercado.
 
@@ -131,14 +131,11 @@ $$
 \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
 $$
 
-$$
-\begin{align*}
-\text{Legenda:} \\
-- \, n & : \text{ número total de observações.} \\
-- \, y_i & : \text{ valores reais.} \\
-- \, \hat{y}_i & : \text{ valores previstos pelo modelo.}
-\end{align*}
-$$
+Legenda:
+
+- \( n \): número total de observações.
+- \( y_i \): valores reais.
+- \( \hat{y}_i \): valores previstos pelo modelo.
 
 ### 6.2 Modelos
 
